@@ -1,8 +1,12 @@
 body {
-    background-color: rgba(95, 57, 199, 0.5);
+    background-color: rgba(255, 255, 255, 0.89);
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: blue;
+    color: rgb(32, 9, 75);
+}
+
+.italico {
+    font-style: italic;
 }
