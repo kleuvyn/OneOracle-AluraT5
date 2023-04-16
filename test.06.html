@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>IMC</title>
+</head>
+<body>
+
+    <script>
+
+    var titulo = "Bem-vindo ";
+
+document.write("<h1>" + titulo + "</h1>");
+
+            function enter( ){
+                document.write("<br><br>");
+            }
+
+            function print (frase) {
+                document.write(frase);
+                enter();
+            }
+
+            function calculoImc (peso, altura){
+              var imc = peso / (altura * altura);
+              print ("O IMC calculado é " + imc );
+            }
+            calculoImc(110, 1.70)
+            calculoImc(34, 1.45)
+            calculoImc(85, 1.70)
+
+
+          
+    </script>
+    
+</body>
+</html>
