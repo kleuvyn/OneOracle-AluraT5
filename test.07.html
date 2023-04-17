@@ -5,21 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles01.css">
-    <title>teste
-    </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <title>Jogo do Adivinha</title>
+
 </head>
 <body>
     
+    <div class="container-campos">
 
-
-    <input/>
-    <button>Compare com o meu segredo</button>
+   
+    <label> Digite um número, boa sorte! </label>
+    <input type="text" style= "margin-right: 20px;">
+    <button>Compare com o meu segredo</button style= "margin-right: 50px"> 
+       
     
     <script>
         function sorteia() {
     
-           return Math.round(Math.random() * 100);
+           return Math.round(Math.random() * 10);
     
         }
     
@@ -90,7 +96,9 @@
         var button = document.querySelector("button");
     
         button.onclick = verifica;
-       
+        
+
     </script>
+    <div>
 </body>
 </html>
