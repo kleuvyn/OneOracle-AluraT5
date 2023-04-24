@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <title>...Triangulo...</title>
+
+</head>
+
+<body>
+
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+var tela = document.querySelector('canvas');
+var pincel = tela.getContext('2d');
+
+pincel.fillStyle = 'black';
+pincel.beginPath();
+pincel.moveTo(50, 50);
+pincel.lineTo(50, 400);
+pincel.lineTo(400,400);
+pincel.fill();
+
+pincel.fillStyle = 'white';
+pincel.beginPath();
+pincel.moveTo(100, 175);
+pincel.lineTo(100, 350);
+pincel.lineTo(275, 350 );
+pincel.fill();
+
+
+
+</script>
+</body>
+</html>
