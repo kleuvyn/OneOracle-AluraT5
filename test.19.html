@@ -9,42 +9,64 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
-    <title>...Canvas BolinhaCabum...</title>
+    <title>Alvo em Movimento</title>
 </head>
 <body>
     <canvas width="600" height="400"></canvas>
+<script>
 
-    <script>
-    
         var tela = document.querySelector('canvas');
         var pincel = tela.getContext('2d');
         pincel.fillStyle = 'lightgray';
         pincel.fillRect(0, 0, 600, 400);
-    
-        function desenhaCirculo(x, y, raio) {
-    
-            pincel.fillStyle = 'blue';
+
+     
+        function desenhaCirculo(x, y, raio, cor)  {
+
+            pincel.fillStyle = cor;
             pincel.beginPath();
             pincel.arc(x, y, raio, 0, 2 * Math.PI);
             pincel.fill();
         }
-    
+
+        function desenhaAlvo(x, y, raio) {
+            desenhaCirculo( x, y, raio + 20, 'red');
+            desenhaCirculo( x, y, raio + 10, 'white');
+            desenhaCirculo( x, y, raio, 'red');
+        }
+       
+
         function limpaTela() {
-        pincel.clearRect(0, 0, 600, 400);
+            pincel.clearRect(0, 0, 600, 400);
         }
-    
+
         var x = 20;
-    
+
         function atualizaTela() {
-    
-        limpaTela();
-        desenhaCirculo(x, 20, 10);
-        x++;
+
+            limpaTela();
+            desenhaAlvo(x, 40, 10);
+            x++;
         }
-    
+
         setInterval(atualizaTela, 10);
-    
-    </script>
- 
+        
+        function desenhaCirculoClick(evento) {
+        var x = evento.pageX - tela.offsetLeft;
+        var y = evento.pageY - tela.offsetTop;
+        var raio = 10;
+        console.log(x + ',' + y);
+        if (evento.shiftKey) {
+          raio = raio + 20; // raio agora passa a valer 30!
+        }
+        pincel.fillStyle = 'blue';
+        pincel.beginPath();
+        pincel.arc(x, y, raio, 0, 2 * 3.14);
+        pincel.fill();
+      }
+      tela.onclick = desenhaCirculoClick;
+      
+   
+</script>
 </body>
 </html>
