@@ -1,10 +1,26 @@
-* {
+p {
+  text-align: center
+}
+h1{
   text-align: center
 }
 
+#missao{
+  font-size: 20px
+}
+
+.item{
+  font-family: italic;
+}
+
+
+#banner{
+  width: 100%;
+}
+
 body {
-    background-size: cover;
-    background-image: url(IMAGENS/ONE+desktop+2.png);
+    background: #CCCCCC;
+
 }
 
 .container-campos {
