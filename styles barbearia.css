@@ -1,7 +1,7 @@
 p {
   text-align: center
 }
-h1{
+h2{
   text-align: center
 }
 
@@ -18,11 +18,21 @@ h1{
   width: 100%;
 }
 
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin: right 10%;
+}
+
 .imagembeneficios{
-  width: 50%;
+  width:40%;
 }
 
 body {
-    background-size:contain;
-    background-image: url(IMAGENS/ONE+desktop+2.png);
+  background-size: cover;
+  background-image: url(IMAGENS/ONE+desktop+2.png);
+  padding: 20px;
 }
+
+
