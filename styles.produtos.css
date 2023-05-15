@@ -1,18 +1,6 @@
-* {
-  text-align: center
-}
-
-
-#missao{
-  font-size: 20px
-}
-
-.item{
-  font-family: italic;
-}
 body {
     background-size: cover;
-    background-image: url(IMAGENS/ONE+desktop+2.png);
+    background-image: url(IMAGENS/ONE+desktop+2.0.png);
 }
 
 
