@@ -1,6 +1,6 @@
 /* Fundo da logo */
 header {
-  background: #8495aa;
+  background: #9184aa;;
   padding: 20px;
 
 }
@@ -102,13 +102,15 @@ font-size: 18px;
   footer{
     text-align: center;
     background: url("IMAGENS/bg.jpg");
-    padding:40px 0 0;
+    padding:20px 0;
 
   }
 
   .copyright{
-    color: azure;
+    color: rgb(255, 255, 255);
     font-size: 13px;
     margin: 20px 0 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
   }
