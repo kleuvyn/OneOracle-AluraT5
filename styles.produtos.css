@@ -1,6 +1,6 @@
 /* Fundo da logo */
 header {
-  background: #84b8f3;
+  background: #c4dfff;
   padding: 20px;
 
 }
@@ -26,10 +26,11 @@ nav li{
   
 }
 
+
 /* configuração dos Links */
 nav a{
   text-transform: uppercase;
-  color: black;
+  color: rgb(0, 8, 53);
   font-weight: bold;
   font-size: 22px;
   text-decoration: none;
@@ -37,7 +38,7 @@ nav a{
 }
 
 nav a:hover{
-color: rgb(0, 60, 255);
+color:rgb(162, 0, 255);
 text-decoration: underline;
 }
 
@@ -63,8 +64,7 @@ font-size: 18px;
 
 }
 
-
-/* alinhamento para centralizar */
+/* margem dos produtos */
 .produtos{
   width: 940px;
   margin: 0 auto;
@@ -84,3 +84,13 @@ font-size: 18px;
   border-radius: 30px;
 
 }
+
+.produtos li:hover {
+  border-color:rgb(162, 0, 255);
+}
+
+.produtos li:active {
+  border-color:rgb(247, 0, 255);
+
+}
+
