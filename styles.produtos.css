@@ -105,6 +105,9 @@ font-size: 18px;
     padding:40px 0;
 
   }
-  footer p {
-    
+  .copyright{
+    color: azure;
+    font-size: 13px;
+    margin: 20px 0 0;
+
   }
