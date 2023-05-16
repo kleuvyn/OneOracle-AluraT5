@@ -102,9 +102,10 @@ font-size: 18px;
   footer{
     text-align: center;
     background: url("IMAGENS/bg.jpg");
-    padding:40px 0;
+    padding:40px 0 0;
 
   }
+
   .copyright{
     color: azure;
     font-size: 13px;
