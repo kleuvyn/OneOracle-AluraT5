@@ -51,6 +51,9 @@ text-decoration: underline;
   font-weight: bold;
 
 }
+.produtos li:hover h2{
+  font-size: 35px;
+}
 
 /* paragrafo valor */
 .produto-valor{
@@ -88,6 +91,7 @@ font-size: 18px;
 .produtos li:hover {
   border-color:rgb(162, 0, 255);
 }
+
 
 .produtos li:active {
   border-color:rgb(247, 0, 255);

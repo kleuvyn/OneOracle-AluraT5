@@ -29,10 +29,12 @@ ul{
   width:40%;
 }
 
-body {
-  background-size: cover;
-  background-image: url(IMAGENS/ONE+desktop+2.0.png);
+.fundo {
+  background: #c4dfff;
   padding: 20px;
+  
+ 
 }
+
 
 
