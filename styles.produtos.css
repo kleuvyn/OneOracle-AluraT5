@@ -1,9 +1,9 @@
-#home
-#Logo 
+/* Fundo da logo */
 header {
   background: #93b8c5;
   padding: 20px;
 }
+/* Imagem logo */
 .caixa{
   position: relative;
   width: 940px;
@@ -11,23 +11,21 @@ header {
 
 }
 
-#Home
+/* Posição da logo */
 nav{
   position: absolute;
   top: 110px;
   right: 0;
 }
 
-#home
-#configurando li entro da home
+/* Posição da home */
 nav li{
   display: inline;
   margin: 0 0 0 15px;
   
 }
 
-#home
-#configurando a li a
+/* configuração dos Links */
 nav a{
   text-transform: uppercase;
   color: black;
@@ -37,3 +35,7 @@ nav a{
 
 }
 
+/* Configuração dos Produtos */
+.produtos li{
+  display: inline-block;
+}
