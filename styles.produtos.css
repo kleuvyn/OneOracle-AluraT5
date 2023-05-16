@@ -2,6 +2,7 @@
 header {
   background: #93b8c5;
   padding: 20px;
+
 }
 /* Imagem logo */
 .caixa{
@@ -36,6 +37,39 @@ nav a{
 }
 
 /* Configuração dos Produtos */
+
+/* Ttitulo */
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+/* paragrafo valor */
+.produto-valor{
+font-size: 22px;
+font-weight: bold;
+
+}
+/* descrição do produto*/
+.produto-descricao{
+font-size: 18px;
+
+}
+
+
+/* alinhamento para centralizar */
+.produtos{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+
+}
+
 .produtos li{
   display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+
 }
