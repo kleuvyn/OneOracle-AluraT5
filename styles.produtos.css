@@ -1,3 +1,5 @@
+#home
+#Logo 
 header {
   background: #93b8c5;
   padding: 20px;
@@ -9,18 +11,23 @@ header {
 
 }
 
+#Home
 nav{
   position: absolute;
   top: 110px;
   right: 0;
 }
 
+#home
+#configurando li entro da home
 nav li{
   display: inline;
   margin: 0 0 0 15px;
   
-
 }
+
+#home
+#configurando a li a
 nav a{
   text-transform: uppercase;
   color: black;
