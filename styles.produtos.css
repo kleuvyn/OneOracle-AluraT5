@@ -1,6 +1,6 @@
 /* Fundo da logo */
 header {
-  background: #0072f5;
+  background: #84b8f3;
   padding: 20px;
 
 }
@@ -37,7 +37,7 @@ nav a{
 }
 
 nav a:hover{
-color: rgb(230, 0, 238);
+color: rgb(0, 60, 255);
 text-decoration: underline;
 }
 
@@ -56,7 +56,6 @@ text-decoration: underline;
 font-size: 22px;
 font-weight: bold;
 margin-top: 10px;
-
 }
 /* descrição do produto*/
 .produto-descricao{
