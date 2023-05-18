@@ -108,3 +108,6 @@ ul {
     padding-bottom: 20px;
 
   }
+  body{
+    margin: unset;
+  }
