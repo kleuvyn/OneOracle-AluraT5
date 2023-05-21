@@ -25,7 +25,10 @@ nav li{
   margin: 0 0 0 15px;
   
 }
-
+main{
+  width: 940px;
+  margin: 0% auto;
+}
 
 /* configuração dos Links */
 nav a{
@@ -47,20 +50,21 @@ text-decoration: underline;
 
 /* Ttitulo */
 .produtos h2 {
-  font-size: 30px;
+  font-size: 27px;
   font-weight: bold;
 
 }
 .produtos li:hover h2{
-  font-size: 35px;
+  font-size: 26px;
 }
 
 /* paragrafo valor */
 .produto-valor{
-font-size: 22px;
+font-size: 20px;
 font-weight: bold;
-margin-top: 10px;
+margin-top: 18px;
 }
+
 /* descrição do produto*/
 .produto-descricao{
 font-size: 18px;
@@ -70,8 +74,8 @@ font-size: 18px;
 /* margem dos produtos */
 .produtos{
   width: 940px;
-  margin: 0 auto;
-  padding: 50px 0;
+  margin: 0% auto;
+  padding: 50px 0px;
 
 }
 
@@ -80,7 +84,7 @@ font-size: 18px;
   text-align: center;
   width: 30%;
   vertical-align: top;
-  margin:0 1.5%;
+  margin:0% 1%;
   padding: 30px 20px;
   box-sizing: border-box;
   border: rgb(1, 8, 68) 2px solid ;
