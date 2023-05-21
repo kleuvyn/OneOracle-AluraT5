@@ -1,0 +1,61 @@
+/* Fundo da logo */
+header {
+    background: #9184aa;;
+    padding: 20px;
+  
+  }
+  /* Imagem logo */
+  .caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+  
+  }
+  
+  /* Posição da logo */
+  nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+  }
+  
+  /* Posição da home */
+  nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+  }
+  
+  
+  /* configuração dos Links */
+  nav a{
+    text-transform: uppercase;
+    color: rgb(0, 8, 53);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+  
+  }
+  
+  nav a:hover{
+  color:rgb(162, 0, 255);
+  text-decoration: underline;
+  }
+  
+
+  /* rodape  */
+  footer{
+    text-align: center;
+    background: url("IMAGENS/bg.jpg");
+    padding:20px 0;
+
+  }
+
+  .copyright{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin: 20px 0 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
