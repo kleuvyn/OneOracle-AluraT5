@@ -1,6 +1,6 @@
 /* Fundo da logo */
 header {
-    background: #9184aa;;
+    background: #9184aa;
     padding: 20px;
   
   }
@@ -84,4 +84,23 @@ form label, form p {
 
 .checkbox {
 	margin: 20px 0;
+}
+
+/* botão */
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background:rgb(162, 0, 255);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #9184aa;
+	transform: scale(1.2);
 }
