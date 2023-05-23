@@ -57,7 +57,7 @@ nav a:hover {
 }
 
 .produtos li:hover {
-	border-color: rgb(162, 0, 255)
+	border-color: rgb(247, 0, 255)
 }
 
 .produtos li:active {
@@ -85,7 +85,7 @@ nav a:hover {
 /* rodape  */
 footer {
 	text-align: center;
-	background: url("bg.jpg");
+	background: url("IMAGENS/bg.jpg");
 	padding: 40px 0;
 }
 
