@@ -4,58 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.principal.02.css">
     
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="style.principal.02.css">
-    <title>A Barbearia Alura2.0</title>
+    <title>Contatos 2.0</title>
 </head>
 <body>
+    
     <header>
         <div class="caixa">
-            <h1><img src="logo.png"></h1>
+            <h1><img src="IMAGENS/logo.png" alt="Logo da Barbearia Alura"></h1>
 
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="produtos.html">Produtos</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="test.23.html">Home</a> </li>
+                    <li><a href="test.24.html">Produtos</a></li>
+                    <li><a href=" test.25.html">Contatos</a></li>
+
                 </ul>
             </nav>
         </div>
     </header>
 
-    <img class="banner" src="banner.jpg">
-
     <main>
-        <section class="principal">
-            <h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+        <form>
+            <label for="nomesobrenome">Nome Completo </label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
 
-            <img class="utensilios" src="utensilios.jpg" alt="Utensilios de um barbeiro.">
-     
-            <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="nome@mail.com">
 
-            <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(12) 34567-7890">
 
-            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-        </section>
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
-        <section class="beneficios">
-            <h3 class="titulo-principal">Benefícios</h3>
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+                
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+            </fieldset>
 
-            <ul>
-                <li class="itens">Atendimento aos Clientes</li>
-                <li class="itens">Espaço diferenciado</li>
-                <li class="itens">Localização</li>
-                <li class="itens">Profissionais Qualificados</li>
-            </ul>
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
 
-            <img src="beneficios.jpg" class="imagembeneficios">
-        </section>
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+
+        <table>
+            <tr>
+                <td>Dia</td>
+                <td>Horário</td>
+            </tr>
+            <tr>
+                <td>Segunda</td>
+                <td>8h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Quarta</td>
+                <td>8h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Sexta</td>
+                <td>8h ~ 20h</td>
+            </tr>
+        </table>
     </main>
 
     <footer>
-        <img src="logo-branco.png">
-        <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
-    </footer>
+        <!-- rodapé  -->
+    <img src="IMAGENS/logo-branco.png">
+    <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+</footer>
 </body>
 </html>
