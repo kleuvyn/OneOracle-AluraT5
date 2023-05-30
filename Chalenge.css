@@ -1,0 +1,80 @@
+body{
+    margin-top: 20px;
+    padding: auto;
+    background-size: cover;
+    background-image: url("IMAGENS/lilac.png");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    background-color: #f1ebfd75;
+
+
+}
+
+
+.logo{
+    height: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+
+.tamanhoTexto{
+    height: 400px;
+    width: 300px;
+    margin:  30px 120px 30px 120px;
+    padding: 20px;
+    border-radius: 30px;
+    border-color: rgba(174, 239, 241, 0.534);
+    color: rgb(53, 0, 114);     
+
+}
+
+.textoInicail{
+    border: 0;
+    color: blueviolet;
+                               
+}
+
+.posicaoButton{
+  margin-top: 10px;
+  margin-left: 120px;
+  padding: 20px;
+  border: 0;
+    
+}
+
+.buttonCriptografia{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    background-color: rgba(194, 152, 233, 0.61);
+    border-radius: 20px;
+    border-color: rgb(203, 174, 241);
+
+}
+
+.buttonDescriptografia{
+    margin: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    color: black;
+    background-color: rgba(222, 105, 238, 0.534);
+    border-radius: 20px;
+    border-color: rgb(209, 174, 241);
+
+}
+
+footer {
+    background-color: #e4c3f1;
+    padding: 10px;
+
+    text-align: center;
+  }
+
+h1{
+
+    margin-left: 130px;
+    font-size: 32px;
+    font-family: fantasy;
+    color: blueviolet;
+  
+
+}
