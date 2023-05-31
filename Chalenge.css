@@ -6,7 +6,6 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
     background-color: #f1ebfd75;
 
-
 }
 
 
@@ -17,7 +16,16 @@ body{
    
 }
 
+.lupa{
+    height:250px;
+    width: 250px;
+    margin: 20px;
+    padding: auto;
+   
+}
+
 .tamanhoTexto{
+    display: inline-block;
     height: 400px;
     width: 300px;
     margin:  30px 120px 30px 120px;
@@ -28,11 +36,37 @@ body{
 
 }
 
-.textoInicail{
-    border: 0;
-    color: blueviolet;
-                               
+.textoInicial {
+    display: flex;
+    justify-content: center;
 }
+
+.descriptografia{
+    display: inline-block;
+    height: 600px;
+    width: 300px;
+    margin:  30px 120px 30px 120px;
+    padding: 10px;
+    color: black;
+    background-color: rgba(194, 152, 233, 0.61);
+    border-radius: 20px;
+    border-color: rgb(203, 174, 241);
+
+}
+
+.resposta{
+    display: flex;
+    justify-content: center;
+    height:250px;
+    width: 300px;
+    margin: 25px 0px 0px 0px;
+    padding: 20;
+    border-radius: 30px;
+    background-color: white;
+    border-color: rgba(174, 239, 241, 0.534);
+    color: rgb(53, 0, 114);  
+}
+
 
 .posicaoButton{
   margin-top: 10px;
@@ -41,7 +75,16 @@ body{
   border: 0;
     
 }
-
+.copiar{
+    margin-top: 10px;
+    margin-left: 120px;
+    color: black;
+    background-color: rgba(102, 58, 143, 0.418);
+    border-radius: 20px;
+    border-color: rgb(203, 174, 241);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+      
+}
 .buttonCriptografia{
     margin: 10px;
     padding: 10px;
@@ -62,19 +105,21 @@ body{
 
 }
 
-footer {
-    background-color: #e4c3f1;
-    padding: 10px;
-
-    text-align: center;
-  }
-
 h1{
 
-    margin-left: 130px;
+    margin-left: 220px;
     font-size: 32px;
     font-family: fantasy;
     color: blueviolet;
   
 
 }
+
+footer {
+    display: block;
+    padding: 40px;
+    background-color: #e4c3f1;
+    text-align: center;
+    color: blueviolet;
+  }
+
