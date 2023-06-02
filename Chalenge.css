@@ -1,132 +1,109 @@
-body{
-    margin-top: 20px;
-    padding: auto;
-    background-size: cover;
-    background-image: url("IMAGENS/lilac.png");
+body {
+    background-color: rgb(242, 237, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
-    background-color: #f1ebfd75;
-
 }
 
-.logo{
-    height: 45px;
-    margin-left: 20px;
-    margin-right: 20px;
-   
-}
-
-.lupa{
-    height:250px;
-    width: 250px;
-    margin: 20px;
-    padding: auto;
-   
-}
-
-.tamanhoTexto{
-    display: inline-block;
-    height: 400px;
-    width: 300px;
-    margin:  30px 120px 30px 120px;
-    padding: 20px;
-    border-radius: 30px;
-    border-color: rgba(174, 239, 241, 0.534);
-    color: rgb(53, 0, 114);   
-    background-color: rgba(148, 52, 191, 0.1);
-
-}
-
-.textoInicial {
+.logo {
     display: flex;
-    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
-.descriptografia{
-    display: inline-block;
-    height: 600px;
-    width: 300px;
-    margin:  30px 120px 30px 120px;
-    padding: 10px;
-    color: black;
-    background-color: rgba(194, 152, 233, 0.61);
-    border-radius: 20px;
-    border-color: rgb(203, 174, 241);
-
-}
-
-.resposta{
+.container {
     display: flex;
-    justify-content: center;
-    height:250px;
-    width: 300px;
-    margin: 25px 0px 0px 0px;
-    padding: 20;
-    border-radius: 30px;
-    background-color: white;
-    border-color: rgba(174, 239, 241, 0.534);
-    color: rgb(53, 0, 114);  
+    justify-self: center;
+ 
 }
 
-.posicaoButton{
-  margin-top: 10px;
-  margin-left: 110px;
-  padding: 20px;
-  border: 0;
+.contato {
+    display: inline-flex;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    padding: 3px;
+    background-color: rgba(213, 200, 235, 0.623);
+    border-radius: 10px;
     
 }
-.copiar{
-    margin-top: 10px;
-    margin-left: 120px;
-    color: black;
-    font-size: 18px;
-    /* font-family: fantasy; */
-    background-color: rgba(102, 58, 143, 0.418);
-    border-radius: 20px;
-    border-color: rgb(203, 174, 241);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
-      
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(33, 1, 75);
 }
-.buttonCriptografia{
+
+main {
+    display: flex;
+    justify-content: center;
     margin: 10px;
+   
+}
+.imagem{
+    height: 250px;
+    margin: 50px;
+}
+
+.imagem2{
+    height: 250px;
+    margin: 170px 0px 80px 200px;
+}
+
+.flex-container{
+    display: flex;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+textarea {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 100px ;
+    width: 360px;
+    height: 80px;
     padding: 10px;
     font-size: 18px;
-    /* font-family: fantasy; */
-    color: black;
-    background-color: rgba(194, 152, 233, 0.61);
-    border-radius: 20px;
-    border-color: rgb(203, 174, 241);
-
+    background-color: #41008b00;
+    border-radius: 10px;
+    border-color: #6e30d3;
 }
 
-.buttonDescriptografia{
-    margin: 10px 20px 10px 20px;
-    padding: 10px 20px 10px 20px;
-    font-size: 18px;
-    /* font-family: fantasy; */
-    color: black;
-    background-color: rgba(222, 105, 238, 0.534);
-    border-radius: 20px;
-    border-color: rgb(209, 174, 241);
-
+button {
+    display: inline-flex;
+    margin: 10px 0px 10px 110px;
+    background: #41008b;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #fffffffb;
 }
 
-h1{
+p {
+    margin: 10px 100px  ;
+    line-height: 30px;
+    font-family: sans-serif;
+    color: rgb(8, 140, 255);
+}
+
+h1 {
+    margin: 60px;
+    font-family: sans-serif;
+    font-size: 28px;
+    color: #8b00fd;
+}
+
+footer{
     display: flex;
-    justify-content: left;
-    margin-left: 220px;
-    font-size: 32px;
-    /* font-family: fantasy; */
-    color: blueviolet;
-  
-
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-bottom:10px;
+    background-color:  rgb(33, 1, 75);
 }
-
-footer {
-    display: block;
-    position: relative; 
-    padding: 20px;
-    background-color: #e4c3f1;
-    text-align: center;
-    color: blueviolet;
-}
-
