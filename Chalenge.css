@@ -31,7 +31,8 @@ body{
     padding: 20px;
     border-radius: 30px;
     border-color: rgba(174, 239, 241, 0.534);
-    color: rgb(53, 0, 114);     
+    color: rgb(53, 0, 114);   
+    background-color: rgba(148, 52, 191, 0.1);
 
 }
 
@@ -78,7 +79,7 @@ body{
     margin-left: 120px;
     color: black;
     font-size: 18px;
-    font-family: fantasy;
+    /* font-family: fantasy; */
     background-color: rgba(102, 58, 143, 0.418);
     border-radius: 20px;
     border-color: rgb(203, 174, 241);
@@ -89,7 +90,7 @@ body{
     margin: 10px;
     padding: 10px;
     font-size: 18px;
-    font-family: fantasy;
+    /* font-family: fantasy; */
     color: black;
     background-color: rgba(194, 152, 233, 0.61);
     border-radius: 20px;
@@ -101,7 +102,7 @@ body{
     margin: 10px 20px 10px 20px;
     padding: 10px 20px 10px 20px;
     font-size: 18px;
-    font-family: fantasy;
+    /* font-family: fantasy; */
     color: black;
     background-color: rgba(222, 105, 238, 0.534);
     border-radius: 20px;
@@ -114,7 +115,7 @@ h1{
     justify-content: left;
     margin-left: 220px;
     font-size: 32px;
-    font-family: fantasy;
+    /* font-family: fantasy; */
     color: blueviolet;
   
 
