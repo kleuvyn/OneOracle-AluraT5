@@ -3,6 +3,13 @@ body {
     background-color: rgb(5, 0, 17);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
 }
+.area-texto{
+    color: aliceblue;
+}
+
+.mensagem-texto{
+    color: azure;
+}
 
 .logo {
     display: flex;

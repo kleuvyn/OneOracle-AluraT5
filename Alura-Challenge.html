@@ -25,32 +25,32 @@
     </header>
    
     <main>
-       
+ 
             <div>
 
                 <h1>Escreva a sua mensagem!</h1>
 
                 <img class="imagem" src="IMAGENS/lupa.png" alt="">
 
-                <textarea class="" minlength=20  maxlength=255 name="sugestao"></textarea>
+                <textarea class="area-texto" minlength=20  maxlength=255 name="sugestao"></textarea>
 
                 <p>ATENÇÃO SÓ LETRAS MINÚSCULAS SEM ACENTO!</p> 
 
 
-                <button type="submit">Criptografar</button>
+                <button class="botaoCriptografar" onclick="botaoCriptografar()">Criptografar</button>
 
-                <button type="submit">Descriptografar</button>
+                <button class="botaoDescriptografar" onclick="botaoDescriptografar()">Descriptografar</button>
                 
             </div>
 
 
-            <div class="">
+            <div>
                 
                 <img class="imagem2" src="IMAGENS/im.png" alt="">
         
-                <textarea class="container" minlength=20  maxlength=255 name="sugestao"></textarea>
+                <textarea class="container mensagem-texto" minlength=20  maxlength=255 name="sugestao"></textarea>
 
-                <button type="submit">Copiar</button>
+                <button class="botao-copiar" onclick="botaoCopiar()">Copiar</button>
             </div>
       
                 
@@ -59,7 +59,12 @@
 
        
     </main>
+    
     <footer>
         <p>&copy; Kleuvyn-2023</p>
     </footer>
+
+    <script src="script.js"></script>
+       
 </body>
+</html>
