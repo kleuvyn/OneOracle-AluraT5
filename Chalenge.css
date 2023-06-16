@@ -93,18 +93,27 @@ button {
     color: #fffffffb;
 }
 
-p {
+.atencao {
+    background-color: rgb(250, 246, 246);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px 10px 100px  ;
+    line-height: 30px;
+    font-family: sans-serif;
+    color: rgb(255, 8, 123);
+}
+.footerk{
     margin: 10px 100px  ;
     line-height: 30px;
     font-family: sans-serif;
-    color: rgb(8, 140, 255);
+    color: rgb(255, 255, 255);
 }
 
 h1 {
     margin: 60px;
     font-family: sans-serif;
     font-size: 28px;
-    color: #8b00fd;
+    color: #ff00f2;
 }
 
 footer{
