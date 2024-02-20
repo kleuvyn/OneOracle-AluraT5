@@ -19,12 +19,6 @@ body {
     border-radius: 10px;
 }
 
-.container {
-    display: flex;
-    justify-self: center;
- 
-}
-
 .contato {
     display: inline-flex;
     height: 35px;
@@ -33,6 +27,7 @@ body {
     padding: 3px;
     background-color: rgba(213, 200, 235, 0.623);
     border-radius: 10px;
+
     
 }
 
@@ -117,6 +112,7 @@ h1 {
 }
 
 footer{
+    position: relative;
     display: flex;
     justify-content: center;
     color: rgb(255, 255, 255);

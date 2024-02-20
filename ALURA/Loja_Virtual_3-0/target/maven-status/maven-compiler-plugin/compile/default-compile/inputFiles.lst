@@ -1,0 +1,13 @@
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/dao/CategoriaDao.java
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/dao/ProdutoDao.java
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/testes/CategoriaDao.java
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/testes/CadastroDeProduto.java
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/modelo/Cliente.java
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/dao/ClienteDao.java
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/modelo/ItemPedido.java
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/util/JPAUtil.java
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/modelo/Categoria.java
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/dao/PedidoDao.java
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/modelo/Produto.java
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/modelo/Pedido.java
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/testes/CadastroDePedido.java

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed7e6488-2132-45cf-9b0e-ab4988364341" name="Changes" comment="JAVA JPA &#10;A mapear novas entidades na aplicação conforme a modelagem do banco de dados;&#10;    A mapear um relacionamento com cardinalidade muitos-para-muitos;&#10;    A mapear um relacionamento bidirecional;&#10;    Como persistir entidades que possuam relacionamentos bidirecionais.">
+      <change afterPath="$PROJECT_DIR$/src/main/Eletronicos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Celulares " beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/dao/PedidoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/dao/PedidoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/testes/CadastroDePedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/testes/CadastroDePedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Loja_Virtual_3-0-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Loja_Virtual_3-0-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/modelo/Categoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/modelo/Categoria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/testes/CadastroDeProduto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/testes/CadastroDeProduto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2W5wPPkjZ1LQ0NgNkrHi18PorTQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn",
+    "last_opened_file_path": "/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Clínica Médica ",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "XML"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.kleuvyn.loja.testes" />
+      <recent name="br.com.kleuvyn.loja.modelo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.kleuvyn.loja.modelo" />
+      <recent name="br.com.kleuvyn.loja.dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.br.com.kleuvyn.loja.testes.CadastroDeProduto">
+    <configuration name="CadastroDeProduto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.kleuvyn.loja.test.CadastroDeProduto" />
+      <module name="Loja_Virtual_3-0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.kleuvyn.loja.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.com.kleuvyn.loja.testes.CadastroDeProduto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.kleuvyn.loja.testes.CadastroDeProduto" />
+      <module name="Loja_Virtual_3-0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.kleuvyn.loja.testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.br.com.kleuvyn.loja.testes.CadastroDeProduto" />
+        <item itemvalue="Application.CadastroDeProduto" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed7e6488-2132-45cf-9b0e-ab4988364341" name="Changes" comment="" />
+      <created>1696035724189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696035724189</updated>
+      <workItem from="1696035725183" duration="2854000" />
+      <workItem from="1696038889100" duration="116000" />
+      <workItem from="1696039702392" duration="10944000" />
+      <workItem from="1696079336683" duration="1508000" />
+      <workItem from="1696252878967" duration="11636000" />
+      <workItem from="1696332571310" duration="2506000" />
+      <workItem from="1696353396841" duration="110000" />
+    </task>
+    <task id="LOCAL-00001" summary="Criando um projeto com JPA">
+      <option name="closed" value="true" />
+      <created>1696037179202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696037179202</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Criando um projeto com JPA">
+      <option name="closed" value="true" />
+      <created>1696038496420</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696038496420</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Criando um projeto com JPA">
+      <option name="closed" value="true" />
+      <created>1696038561165</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696038561165</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Mapeando uma entidade">
+      <option name="closed" value="true" />
+      <created>1696043878252</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696043878252</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Mapeando uma entidade">
+      <option name="closed" value="true" />
+      <created>1696043941955</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696043941955</updated>
+    </task>
+    <task id="LOCAL-00006" summary=" Organizando o código">
+      <option name="closed" value="true" />
+      <created>1696048039818</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696048039818</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Mais mapeamentos">
+      <option name="closed" value="true" />
+      <created>1696049640791</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696049640791</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Mapeando relacionamentos">
+      <option name="closed" value="true" />
+      <created>1696051513646</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696051513646</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Mapeando relacionamentos">
+      <option name="closed" value="true" />
+      <created>1696051530072</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696051530072</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Conclusão">
+      <option name="closed" value="true" />
+      <created>1696294163432</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696294163432</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Conclusão">
+      <option name="closed" value="true" />
+      <created>1696294247684</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1696294247684</updated>
+    </task>
+    <task id="LOCAL-00012" summary="JAVA JPA &#10;A mapear novas entidades na aplicação conforme a modelagem do banco de dados;&#10;    A mapear um relacionamento com cardinalidade muitos-para-muitos;&#10;    A mapear um relacionamento bidirecional;&#10;    Como persistir entidades que possuam relacionamentos bidirecionais.">
+      <option name="closed" value="true" />
+      <created>1696299947294</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696299947294</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criando um projeto com JPA" />
+    <MESSAGE value="Mapeando uma entidade" />
+    <MESSAGE value=" Organizando o código" />
+    <MESSAGE value="Mais mapeamentos" />
+    <MESSAGE value="Mapeando relacionamentos" />
+    <MESSAGE value="Conclusão" />
+    <MESSAGE value="&#10;Nessa aula, você aprendeu:&#10;&#10;    A mapear novas entidades na aplicação conforme a modelagem do banco de dados;&#10;    A mapear um relacionamento com cardinalidade muitos-para-muitos;&#10;    A mapear um relacionamento bidirecional;&#10;    Como persistir entidades que possuam relacionamentos bidirecionais." />
+    <MESSAGE value="JAVA JPA &#10;A mapear novas entidades na aplicação conforme a modelagem do banco de dados;&#10;    A mapear um relacionamento com cardinalidade muitos-para-muitos;&#10;    A mapear um relacionamento bidirecional;&#10;    Como persistir entidades que possuam relacionamentos bidirecionais." />
+    <option name="LAST_COMMIT_MESSAGE" value="JAVA JPA &#10;A mapear novas entidades na aplicação conforme a modelagem do banco de dados;&#10;    A mapear um relacionamento com cardinalidade muitos-para-muitos;&#10;    A mapear um relacionamento bidirecional;&#10;    Como persistir entidades que possuam relacionamentos bidirecionais." />
+  </component>
+</project>
